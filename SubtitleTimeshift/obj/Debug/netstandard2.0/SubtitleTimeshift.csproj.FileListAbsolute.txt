@@ -1,0 +1,10 @@
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\SubtitleTimeshift\bin\Debug\netstandard2.0\SubtitleTimeshift.deps.json
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\SubtitleTimeshift\bin\Debug\netstandard2.0\SubtitleTimeshift.dll
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\SubtitleTimeshift\bin\Debug\netstandard2.0\SubtitleTimeshift.pdb
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\SubtitleTimeshift\obj\Debug\netstandard2.0\SubtitleTimeshift.csproj.AssemblyReference.cache
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\SubtitleTimeshift\obj\Debug\netstandard2.0\SubtitleTimeshift.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\SubtitleTimeshift\obj\Debug\netstandard2.0\SubtitleTimeshift.AssemblyInfoInputs.cache
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\SubtitleTimeshift\obj\Debug\netstandard2.0\SubtitleTimeshift.AssemblyInfo.cs
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\SubtitleTimeshift\obj\Debug\netstandard2.0\SubtitleTimeshift.csproj.CoreCompileInputs.cache
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\SubtitleTimeshift\obj\Debug\netstandard2.0\SubtitleTimeshift.dll
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\SubtitleTimeshift\obj\Debug\netstandard2.0\SubtitleTimeshift.pdb

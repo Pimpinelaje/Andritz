@@ -1,0 +1,10 @@
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\Graph\bin\Debug\netstandard2.0\Graph.deps.json
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\Graph\bin\Debug\netstandard2.0\Graph.dll
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\Graph\bin\Debug\netstandard2.0\Graph.pdb
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\Graph\obj\Debug\netstandard2.0\Graph.csproj.AssemblyReference.cache
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\Graph\obj\Debug\netstandard2.0\Graph.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\Graph\obj\Debug\netstandard2.0\Graph.AssemblyInfoInputs.cache
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\Graph\obj\Debug\netstandard2.0\Graph.AssemblyInfo.cs
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\Graph\obj\Debug\netstandard2.0\Graph.csproj.CoreCompileInputs.cache
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\Graph\obj\Debug\netstandard2.0\Graph.dll
+C:\Users\pimpi\Downloads\devassessment-ANDRITZ\devassessment-master\Graph\obj\Debug\netstandard2.0\Graph.pdb
