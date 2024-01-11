@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Reactive.Linq;
 using System.Reactive.Subjects;
+using System.Linq;
 
 namespace Graph
 {
@@ -14,6 +13,7 @@ namespace Graph
     public class Graph<T> : IGraph<T>
     {
         private readonly Dictionary<T, List<T>> adjacencyList;
+
         public Graph(IEnumerable<ILink<T>> links)
         {
             adjacencyList = new Dictionary<T, List<T>>();
@@ -37,26 +37,27 @@ namespace Graph
 
                 if (current.Equals(target))
                 {
-                    routesSubject.OnNext(path.ToList().AsEnumerable());
-                    return;
+                    routesSubject.OnNext(path.ToList());
                 }
-
-                if (adjacencyList.ContainsKey(current))
+                else if (adjacencyList.ContainsKey(current))
                 {
                     foreach (var neighbor in adjacencyList[current])
                     {
-                        DFS(neighbor, new List<T>(path)); // Criar uma nova lista para cada chamada recursiva
+                        if (!path.Contains(neighbor))
+                        {
+                            DFS(neighbor, path.ToList());
+                        }
                     }
                 }
+
+                path.RemoveAt(path.Count - 1);
             }
 
-            // Inicie a busca DFS
             DFS(source, new List<T>());
 
-            // Remova a linha routesSubject.OnCompleted();, não é necessário
+            routesSubject.OnCompleted();
 
-            return routesSubject.AsObservable();
+            return routesSubject;
         }
-
-    }
+    }    
 }
