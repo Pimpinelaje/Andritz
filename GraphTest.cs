@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Reactive.Linq;
 using Xunit;
@@ -31,7 +30,6 @@ namespace Graph.Tests
             var paths = graph.RoutesBetween("a", "e");
 
             var list = paths.ToEnumerable().ToArray();
-
             Assert.Equal(2, list.Length);
 
             Assert.Contains(list, l => String.Join("-", l) == "a-b-c-d-e");
